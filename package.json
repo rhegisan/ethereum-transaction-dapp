@@ -1,0 +1,20 @@
+{
+  "name": "transaction-dapp",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "lite-server --config bs-config.json",
+    "compile": "truffle compile",
+    "migrate:dev": "truffle migrate --network development",
+    "migrate:sepolia": "truffle migrate --network sepolia",
+    "test": "truffle test"
+  },
+  "dependencies": {
+    "@truffle/contract": "^4.4.0",
+    "@truffle/hdwallet-provider": "^2.0.8",
+    "web3": "^1.10.0"
+  },
+  "devDependencies": {
+    "dotenv": "^17.2.3",
+    "lite-server": "^2.6.1"
+  }
+}
